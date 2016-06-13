@@ -14,6 +14,7 @@
 		739641A11D0E98F500814960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739641A01D0E98F500814960 /* Assets.xcassets */; };
 		739641A41D0E98F500814960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739641A21D0E98F500814960 /* LaunchScreen.storyboard */; };
 		739641AF1D0E98F500814960 /* DMmomoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739641AE1D0E98F500814960 /* DMmomoUITests.m */; };
+		739641BB1D0E9A6900814960 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 739641BA1D0E9A6900814960 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		739641AA1D0E98F500814960 /* DMmomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMmomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		739641AE1D0E98F500814960 /* DMmomoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMmomoUITests.m; sourceTree = "<group>"; };
 		739641B01D0E98F500814960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739641B91D0E9A6900814960 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		739641BA1D0E9A6900814960 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				739641951D0E98F500814960 /* main.m */,
+				739641B91D0E9A6900814960 /* Car.h */,
+				739641BA1D0E9A6900814960 /* Car.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			files = (
 				7396419C1D0E98F500814960 /* ViewController.m in Sources */,
 				739641991D0E98F500814960 /* AppDelegate.m in Sources */,
+				739641BB1D0E9A6900814960 /* Car.m in Sources */,
 				739641961D0E98F500814960 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
